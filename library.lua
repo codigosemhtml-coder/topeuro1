@@ -1485,7 +1485,7 @@ local Library do
     end
     Library.Pages.__call = nil
 
-    Library.Window.Page = function(win, data) return makePage(win, data) end
+    Library.Page = function(self, Data) return makePage(self, Data) end
 
     -- Section constructors on Page
     Library.Pages.Section = function(page, data)
