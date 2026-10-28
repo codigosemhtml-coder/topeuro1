@@ -1,7 +1,3 @@
-================================================================================
-Source Length: 144430 characters
---------------------------------------------------------------------------------
-
 local uis = game:GetService("UserInputService")
 local players = game:GetService("Players")
 local ws = game:GetService("Workspace")
